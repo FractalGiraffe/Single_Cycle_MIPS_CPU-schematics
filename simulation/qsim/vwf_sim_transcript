@@ -1,0 +1,66 @@
+Determining the location of the ModelSim executable...
+
+Using: /opt/intelFPGA_lite/18.1/modelsim_ase/linuxaloem/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processorDebug -c processorDebug --vector_source="/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/zeroextend.vwf" --testbench_file="/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/zeroextend.vwf.vt"
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.    Info: Your use of Intel Corporation's design tools, logic functions     Info: and other software and tools, and its AMPP partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Intel Program License     Info: Subscription Agreement, the Intel Quartus Prime License Agreement,    Info: the Intel FPGA IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Intel and sold by Intel or its authorized distributors.  Please    Info: refer to the applicable agreement for further details.    Info: Processing started: Sat Nov 10 00:04:35 2018Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off processorDebug -c processorDebug --vector_source=/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/zeroextend.vwf --testbench_file=/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/zeroextend.vwf.vtInfo (119006): Selected device 10M50DAF484C7G for design "processorDebug"Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+bench files
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/" processorDebug -c processorDebug
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.    Info: Your use of Intel Corporation's design tools, logic functions     Info: and other software and tools, and its AMPP partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Intel Program License     Info: Subscription Agreement, the Intel Quartus Prime License Agreement,    Info: the Intel FPGA IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Intel and sold by Intel or its authorized distributors.  Please    Info: refer to the applicable agreement for further details.    Info: Processing started: Sat Nov 10 00:04:36 2018Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/ processorDebug -c processorDebugInfo (119006): Selected device 10M50DAF484C7G for design "processorDebug"Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.Info (204019): Generated file processorDebug.vo in folder "/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim//" for EDA simulation toolInfo: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning    Info: Peak virtual memory: 1058 megabytes    Info: Processing ended: Sat Nov 10 00:04:37 2018    Info: Elapsed time: 00:00:01    Info: Total CPU time (on all processors): 00:00:00
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/processorDebug.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+/opt/intelFPGA_lite/18.1/modelsim_ase/linuxaloem//vsim -c -do processorDebug.do
+
+Reading pref.tcl
+# 10.5b
+# do processorDebug.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:04:37 on Nov 10,2018# vlog -work work processorDebug.vo # -- Compiling module zeroextend
+# 
+# Top level modules:# 	zeroextend# End time: 00:04:37 on Nov 10,2018, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:04:37 on Nov 10,2018# vlog -work work zeroextend.vwf.vt # -- Compiling module zeroextend_vlg_vec_tst
+# # Top level modules:# 	zeroextend_vlg_vec_tst# End time: 00:04:37 on Nov 10,2018, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.zeroextend_vlg_vec_tst # Start time: 00:04:37 on Nov 10,2018# Loading work.zeroextend_vlg_vec_tst# Loading work.zeroextend# Loading fiftyfivenm_ver.fiftyfivenm_io_obuf# Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf
+# after#25
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.# ** Note: $finish    : zeroextend.vwf.vt(44)#    Time: 10 us  Iteration: 0  Instance: /zeroextend_vlg_vec_tst
+# End time: 00:04:38 on Nov 10,2018, Elapsed time: 0:00:01# Errors: 0, Warnings: 1
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading /home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/zeroextend.vwf...
+
+Reading /home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/processorDebug.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to /home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim/processorDebug_20181110000438.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

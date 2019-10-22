@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/simulation/qsim
+valuextended
+Z1 !s110 1541806706
+!i10b 1
+!s100 fkz`^GP9QgbZQ?gB=DzJF1
+IJn_5IR=Xd0Jd`X_n9o3262
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1541806705
+Z3 8processorDebug.vo
+Z4 FprocessorDebug.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1541806706.000000
+Z8 !s107 processorDebug.vo|
+Z9 !s90 -work|work|processorDebug.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+valuextended_vlg_vec_tst
+R1
+!i10b 1
+!s100 oIH?0z;FOojVMj6K6Y?H[3
+InSYHESbLVN=ICVm4WhPMN3
+R2
+R0
+w1541806704
+8aluextended.vwf.vt
+Faluextended.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 aluextended.vwf.vt|
+!s90 -work|work|aluextended.vwf.vt|
+!i113 1
+R10
+R11
+voutputsignal
+Z13 !s110 1541807790
+!i10b 1
+!s100 ]i73?>2@CeAzKOi9cXT?z2
+I16a?8b[1BH;oJ<Y]T^B@M2
+R2
+R0
+w1541807790
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1541807790.000000
+R8
+R9
+!i113 1
+R10
+R11
+voutputsignal_vlg_vec_tst
+R13
+!i10b 1
+!s100 UV1Wa`A3d68>I8FaE>l:?1
+I`hGYSHPHYIenMfcWX6j?i2
+R2
+R0
+w1541807789
+8outputsignal.vwf.vt
+Foutputsignal.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 outputsignal.vwf.vt|
+!s90 -work|work|outputsignal.vwf.vt|
+!i113 1
+R10
+R11
+vzeroextend
+Z15 !s110 1541808277
+!i10b 1
+!s100 BIioe1_?`TBIVEcCH=k3N0
+Iz[Y?1bg2]?3]3CF9S<?Ta1
+R2
+R0
+w1541808277
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1541808277.000000
+R8
+R9
+!i113 1
+R10
+R11
+vzeroextend_vlg_vec_tst
+R15
+!i10b 1
+!s100 kK>>cXcLCS2<i]YSC02iY0
+Ii`4Wj[U>_^2cSSeKb4S`S0
+R2
+R0
+w1541808276
+8zeroextend.vwf.vt
+Fzeroextend.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 zeroextend.vwf.vt|
+!s90 -work|work|zeroextend.vwf.vt|
+!i113 1
+R10
+R11

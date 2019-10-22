@@ -1,0 +1,146 @@
+Archive Project report for processorDebug
+Mon Nov 12 17:07:11 2018
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Nov 12 17:07:11 2018 ;
+; Revision Name          ; processorDebug                        ;
+; Top-level Entity Name  ; processor                             ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory /home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/processor.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'processorDebug.archive.rpt'
+Info (23030): Evaluation of Tcl script /opt/intelFPGA_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 1066 megabytes
+    Info: Processing ended: Mon Nov 12 17:07:11 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------------------+
+; Files Archived                                                   ;
++------------------------------------------------------------------+
+; File Name                                                        ;
++------------------------------------------------------------------+
+; /opt/intelFPGA_lite/18.1/quartus/linux64/assignment_defaults.qdf ;
+; alu.v                                                            ;
+; aludcllayer.bdf                                                  ;
+; aluDecoder.bdf                                                   ;
+; aluextended.bdf                                                  ;
+; aluextended.vwf                                                  ;
+; ALUOp0Decoder.bdf                                                ;
+; ALUOp1Decoder.bdf                                                ;
+; ALUOpDecoder.bdf                                                 ;
+; AluSrcDecoder.bdf                                                ;
+; BranchDecoder.bdf                                                ;
+; claadder4.bdf                                                    ;
+; claadder32.bdf                                                   ;
+; claadder32cin.bdf                                                ;
+; clockDivider.qip                                                 ;
+; clockDivider.v                                                   ;
+; comparison4bit.bdf                                               ;
+; comparison32bit.bdf                                              ;
+; controlUnit.bdf                                                  ;
+; dflipflop.bdf                                                    ;
+; DisplayDriver.v                                                  ;
+; displaySwitch.bdf                                                ;
+; dmem.v                                                           ;
+; dstylelatch.bdf                                                  ;
+; enableddflipflop.bdf                                             ;
+; erdflipflop.bdf                                                  ;
+; erdregister4.bdf                                                 ;
+; erdregister32.bdf                                                ;
+; extend.bdf                                                       ;
+; halfadder.bdf                                                    ;
+; join.bdf                                                         ;
+; jumpDecoder.bdf                                                  ;
+; leftShift.bdf                                                    ;
+; leftShift26.bdf                                                  ;
+; leftShiftcontainer.bdf                                           ;
+; mainDecoder.bdf                                                  ;
+; MemtoRegDecoder.bdf                                              ;
+; MemWriteDecoder.bdf                                              ;
+; multiplex.bdf                                                    ;
+; multiplex3.bdf                                                   ;
+; multiplex4.bdf                                                   ;
+; multiplex5.bdf                                                   ;
+; multiplex8.bdf                                                   ;
+; multiplex32.bdf                                                  ;
+; outputsignal.bdf                                                 ;
+; outputsignal.vwf                                                 ;
+; processor.bdf                                                    ;
+; processorDebug.qpf                                               ;
+; processorDebug.qsf                                               ;
+; processorv2.bdf                                                  ;
+; ram.bdf                                                          ;
+; rdisplayDriver.bdf                                               ;
+; RegDstDecoder.bdf                                                ;
+; regfile.v                                                        ;
+; register4.bdf                                                    ;
+; register32.bdf                                                   ;
+; RegWriteDecoder.bdf                                              ;
+; resettabledflipflop.bdf                                          ;
+; ROM.vhd                                                          ;
+; sevensegment0.bdf                                                ;
+; sevensegment1.bdf                                                ;
+; sevensegment2.bdf                                                ;
+; sevensegment3.bdf                                                ;
+; sevensegment4.bdf                                                ;
+; sevensegment5.bdf                                                ;
+; sevensegment6.bdf                                                ;
+; sevensegmentdecodernopindp.bdf                                   ;
+; signExtend.bdf                                                   ;
+; split.bdf                                                        ;
+; zeroextend.bdf                                                   ;
+; zeroextend.vwf                                                   ;
++------------------------------------------------------------------+
+
+

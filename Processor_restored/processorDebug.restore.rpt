@@ -1,0 +1,148 @@
+Restore Archived Project report for processorDebug
+Tue Nov 13 09:38:57 2018
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Nov 13 09:38:57 2018 ;
+; Revision Name                   ; processorDebug                        ;
+; Top-level Entity Name           ; processor                             ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/Processor.qar' into the '/home/gorbu/Documents/Academics/Semester1/ENGF0001/ProcessorDebug/Processor_restored/' directory
+Info: Generated report 'processorDebug.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/intelFPGA_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1059 megabytes
+    Info: Processing ended: Tue Nov 13 09:38:57 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++--------------------------------+
+; Files Restored                 ;
++--------------------------------+
+; File Name                      ;
++--------------------------------+
+; qar_info.json                  ;
+; ALUOp0Decoder.bdf              ;
+; ALUOp1Decoder.bdf              ;
+; ALUOpDecoder.bdf               ;
+; AluSrcDecoder.bdf              ;
+; BranchDecoder.bdf              ;
+; DisplayDriver.v                ;
+; MemWriteDecoder.bdf            ;
+; MemtoRegDecoder.bdf            ;
+; Processor.vwf                  ;
+; ProcessorCompact.vwf           ;
+; ROM.vhd                        ;
+; RegDstDecoder.bdf              ;
+; RegWriteDecoder.bdf            ;
+; alu.v                          ;
+; aluDecoder.bdf                 ;
+; aludcllayer.bdf                ;
+; aluextended.bdf                ;
+; aluextended.vwf                ;
+; assignment_defaults.qdf        ;
+; claadder32.bdf                 ;
+; claadder32cin.bdf              ;
+; claadder4.bdf                  ;
+; clockDivider.qip               ;
+; clockDivider.v                 ;
+; comparison32bit.bdf            ;
+; comparison4bit.bdf             ;
+; controlUnit.bdf                ;
+; dflipflop.bdf                  ;
+; displaySwitch.bdf              ;
+; dmem.v                         ;
+; dstylelatch.bdf                ;
+; enableddflipflop.bdf           ;
+; erdflipflop.bdf                ;
+; erdregister32.bdf              ;
+; erdregister4.bdf               ;
+; extend.bdf                     ;
+; halfadder.bdf                  ;
+; join.bdf                       ;
+; jumpDecoder.bdf                ;
+; leftShift.bdf                  ;
+; leftShift26.bdf                ;
+; leftShiftcontainer.bdf         ;
+; mainDecoder.bdf                ;
+; multiplex.bdf                  ;
+; multiplex3.bdf                 ;
+; multiplex32.bdf                ;
+; multiplex4.bdf                 ;
+; multiplex5.bdf                 ;
+; multiplex8.bdf                 ;
+; outputsignal.bdf               ;
+; outputsignal.vwf               ;
+; processor.bdf                  ;
+; processorCompact.bdf           ;
+; processorDebug.qpf             ;
+; processorDebug.qsf             ;
+; processorv2.bdf                ;
+; ram.bdf                        ;
+; rdisplayDriver.bdf             ;
+; regfile.v                      ;
+; register32.bdf                 ;
+; register4.bdf                  ;
+; resettabledflipflop.bdf        ;
+; sevensegment0.bdf              ;
+; sevensegment1.bdf              ;
+; sevensegment2.bdf              ;
+; sevensegment3.bdf              ;
+; sevensegment4.bdf              ;
+; sevensegment5.bdf              ;
+; sevensegment6.bdf              ;
+; sevensegmentdecodernopindp.bdf ;
+; signExtend.bdf                 ;
+; split.bdf                      ;
+; zeroextend.bdf                 ;
+; zeroextend.vwf                 ;
++--------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

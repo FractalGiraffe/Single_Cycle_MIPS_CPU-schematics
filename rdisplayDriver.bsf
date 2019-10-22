@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 176 176)
+	(text "rdisplayDriver" (rect 5 0 86 15)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 143 28 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "we" (rect 0 0 17 15)(font "Intel Clear" (font_size 8)))
+		(text "we" (rect 21 27 38 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Clk" (rect 0 0 20 15)(font "Intel Clear" (font_size 8)))
+		(text "Clk" (rect 21 43 41 58)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "A[31..0]" (rect 0 0 44 15)(font "Intel Clear" (font_size 8)))
+		(text "A[31..0]" (rect 21 59 65 74)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "D[31..0]" (rect 0 0 46 15)(font "Intel Clear" (font_size 8)))
+		(text "D[31..0]" (rect 21 75 67 90)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Reset" (rect 0 0 33 15)(font "Intel Clear" (font_size 8)))
+		(text "Reset" (rect 21 91 54 106)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "Digit0[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit0[7..0]" (rect 76 27 139 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "Digit1[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit1[7..0]" (rect 76 43 139 58)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 48)(pt 144 48)(line_width 3))
+	)
+	(port
+		(pt 160 64)
+		(output)
+		(text "Digit2[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit2[7..0]" (rect 76 59 139 74)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 64)(pt 144 64)(line_width 3))
+	)
+	(port
+		(pt 160 80)
+		(output)
+		(text "Digit3[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit3[7..0]" (rect 76 75 139 90)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 80)(pt 144 80)(line_width 3))
+	)
+	(port
+		(pt 160 96)
+		(output)
+		(text "Digit4[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit4[7..0]" (rect 76 91 139 106)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 96)(pt 144 96)(line_width 3))
+	)
+	(port
+		(pt 160 112)
+		(output)
+		(text "Digit5[7..0]" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "Digit5[7..0]" (rect 76 107 139 122)(font "Intel Clear" (font_size 8)))
+		(line (pt 160 112)(pt 144 112)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 144))
+	)
+)

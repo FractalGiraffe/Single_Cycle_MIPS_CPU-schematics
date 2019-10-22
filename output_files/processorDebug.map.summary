@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Nov 12 11:33:25 2018
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : processorDebug
+Top-level Entity Name : processor
+Family : MAX 10
+Total logic elements : 4,508
+    Total combinational functions : 2,332
+    Dedicated logic registers : 2,266
+Total registers : 2266
+Total pins : 51
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
